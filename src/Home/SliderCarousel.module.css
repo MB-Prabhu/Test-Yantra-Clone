@@ -1,0 +1,50 @@
+.cont
+{
+    /* border: 2px solid black; */
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
+
+.innercontener
+{
+    font-size: 17px;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    color:white;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px;
+    gap: 10px;
+}
+.img img
+{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+.conticon 
+{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.conticon p
+{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+}
+.icon
+{
+    color: orange;
+}

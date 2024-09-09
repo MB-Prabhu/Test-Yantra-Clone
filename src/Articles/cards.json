@@ -1,0 +1,201 @@
+
+[
+    {
+        "id": 1,
+        "identity": 1,
+        "img": "asset 4.jpeg",
+        "title": "Comprehensive Guide to Developing Test Scripts for Software Testing",
+        "readtime": "7 min read",
+        "content": "Effective software testing is essential for the delivery of high-quality software products. The development of test scripts is a critical...",
+        "logo": "DK",
+        "authorname": "Daren Khatib",
+        "currdate": "July 16, 2024",
+        "category": "Software Testing"
+    },
+    {
+        "id": 2,
+           "identity": 2,
+        "img": "asset 5.jpeg",
+        "title": "Guidelines for Writing Effective Unit Tests",
+        "readtime": "9 min read",
+        "content": "Learn effective unit testing techniques to enhance code quality and development speed. Discover essential tools...",
+        "logo": "SP",
+        "authorname": "Surya Prakash",
+        "currdate": "Apr 17, 2024",
+        "category": "Categories of Tests"
+    },
+    {
+        "id": 3,
+           "identity": 3,
+        "img": "asset 6.jpeg",
+        "title": "Automation Testing Tools: Selenium, Cypress, Playwright, Robot Framework vs. FireFlink",
+        "readtime": "5 min read",
+        "content": "Dive into the specifics of renowned automation tools like Selenium, Cypress, Playwright, and Robot Framework...",
+        "logo": "SP",
+        "authorname": "Surya Prakash",
+        "currdate": "Apr 08, 2024",
+        "category": "Test Data"
+
+    },
+    {
+        "id": 4,
+           "identity": 4,
+        "img": "asset 7.jpeg",
+        "title": "Understanding Software Testing Life Cycle",
+        "readtime": "15 min read",
+        "content": "Make the switch to automation testing effortlessly with FireFlink's tailored solutions, empowering your QA team...",
+        "logo": "MR",
+        "authorname": "Manya Rao",
+        "currdate": "Mar 04, 2024",
+        "category": "UI Element Locator"
+    },
+    {
+        "id": 5,
+           "identity": 5,
+        "img": "asset 8.jpeg",
+        "title": "How to Migrate from Manual Testing to Automation Testing (and why you should)",
+        "readtime": "10 min read",
+        "content": "Make the switch to automation testing effortlessly with FireFlink's tailored solutions, empowering your QA team...",
+        "logo": "SP",
+        "authorname": "Surya Prakash",
+        "currdate": "Mar 01, 2024",
+        "category": "Script Automation"
+    },
+    {
+        "id": 6,
+           "identity": 6,
+        "img": "asset 9.jpeg",
+        "title": "Improving Test Automation with the FireFlink Finder Tool",
+        "readtime": "3 min read",
+        "content": "In the dynamic landscape of test automation, software applications frequently undergo updates to meet...",
+        "logo": "SP",
+        "authorname": "Surya Prakash",
+        "currdate": "Feb 21, 2024",
+        "category": "FireFlink Finder"
+    },
+    {
+        "id": 7,
+           "identity": 7,
+        "img": "asset 10.jpeg",
+        "title": "Enhancing Debugging Efficiency with FireFlink's Screen Recording",
+        "readtime": "2 min read",
+        "content": "FireFlink is an advanced test automation platform that utilizes AI to enhance testing efficiency. When it comes to test...",
+        "logo": "SP",
+        "authorname": "Surya Prakash",
+        "currdate": "Jan 31, 2024",
+        "category": "Debugging"
+    },
+     {
+        "id": 8,
+           "identity": 8,
+        "img": "asset 11.jpeg",
+        "title": "Making Testing Effortless: Seamless Integrations with FireFlink",
+        "readtime": "2 min read",
+        "content": "Testing an application involves using different tools. To check compatibility across devices and operating systems...",
+        "logo": "DK",
+        "authorname": "Daren Khatib",
+        "currdate": "Jan 06, 2024",
+        "category": "Test Automation"
+    },
+    {
+        "id": 9,
+           "identity": 9,
+        "img": "asset 12.jpeg",
+        "title": "FireFlinks Self Healing Features Improves Script Failure Caused by UI Reskin",
+        "readtime": "5 min read",
+        "content": "Discover how FireFlink is evolving the way we manage user interfaces (UI), automatically updates the identifiers used...",
+        "logo": "MR",
+        "authorname": "Manya Rao",
+        "currdate": "Dec 01, 2023",
+        "category": "UI Element Collector"
+    },
+    {
+        "id": 10,
+           "identity": 8,
+        "img": "asset 13.jpeg",
+        "title": "Revolutionary On-Demand Test Automation",
+        "readtime": "4 min read",
+        "content": "Testing applications for minimal bugs poses a considerable challenge, as even minor issues in the testing setup can....",
+        "logo": "SP",
+        "authorname": "Surya Prakash",
+        "currdate": "Nov 22, 2023",
+        "category": "Test Automation"
+    },
+    {
+        "id": 11,
+           "identity": 10,
+        "img": "asset 14.jpeg",
+        "title": "One stop solution for Scriptless Automated Testing – FireFlink",
+        "readtime": "4 min read",
+        "content": "In the world of web testing, ‘Automated testing’ has revolutionized the way testing is done. It has helped in reducing the...",
+        "logo": "MR",
+        "authorname": "Manya Rao",
+        "currdate": "May 03, 2023",
+        "category": "Scriptless testing"
+    },
+    {
+        "id": 12,
+           "identity": 11,
+        "img": "asset 15.jpeg",
+        "title": "Test Automation Suite- Selenium , Oracle or FireFlink",
+        "readtime": "3 min read",
+        "content": "Test automation has recently offered a viable alternative for improving the effectiveness and quality of software...",
+        "logo": "SP",
+        "authorname": "Surya Prakash",
+        "currdate": "Aug 22, 2023",
+        "category": "Test Automation suite"
+    },
+    {
+        "id": 13,
+           "identity": 12,
+        "img": "asset 16.jpeg",
+        "title": "Automated software testing -101",
+        "readtime": "6 min read",
+        "content": "Software testing verifies the software functions as intended and meets the requirements set out by the customer...",
+        "logo": "MR",
+        "authorname": "Manya Rao",
+        "currdate": "Mar 11, 2023",
+        "category": "Software testing"
+    },
+    {
+        "id": 14,
+           "identity": 13,
+        "img": "asset 17.jpeg",
+        "title": "All about crowdsourced Testing- TestYantra",
+        "readtime": "4 min read",
+        "content": "The quality of any software project or application is defined primarily by its capability of handling the required...",
+        "logo": "SP",
+        "authorname": "Surya Prakash",
+        "currdate": "Feb 09, 2023",
+        "category": "Crowd Testing"
+        
+    },
+    {
+        "id": 15,
+           "identity": 12,
+        "img": "asset 18.jpeg",
+        "title": "Salesforce Testing",
+        "readtime": "1 min read",
+        "content": "Customer is a leading provider of Protection Solutions with a dominant global presence. The customer was reviewing....",
+        "logo": "SP",
+        "authorname": "Surya Prakash",
+        "currdate": "Jan 12, 2023",
+        "category": "Software testing"
+
+
+    },
+    {
+        "id": 16,
+           "identity": 14,
+        "img": "asset 19.jpeg",
+        "title": "Test Automation And Performance Testing For DevOps Platform",
+        "readtime": "2 min read",
+        "content": "The Platform is designed with six independent Pods that interact with each other...",
+        "logo": "SP",
+        "authorname": "Surya Prakash",
+        "currdate": "Dec 10, 2022",
+        "category": "Performance Testing"
+    }
+   
+
+]

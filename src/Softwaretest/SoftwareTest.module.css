@@ -1,0 +1,258 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.head{
+    height: 250px;
+    position: relative;
+}
+
+.head img{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.mainContent{
+    display: flex;
+    align-items: start;
+    width: 90%;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    position: absolute;
+    top: 10px;
+    color: #e8801e;
+    font-size: 22px;
+    font-weight: 700;
+    padding: 70px;
+}
+
+.mainContent p:nth-child(2){
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+
+}
+
+
+.firelink{
+    background-color: #f2f6f9;
+    color: #162d52;
+    padding: 60px;
+}
+
+.firelink h1{
+    color: #162d52;
+    font-size: 38px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.firelink p{
+    color: #162d52;
+    font-size: 22px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+.fireCont{
+    width: 95%;
+    /* border: 2px solid #000; */
+    margin: 50px auto;
+    padding: 30px;
+}
+
+.cardContainer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    height: 80%;
+    /* border: 2px solid #000; */
+    gap: 20px;
+}
+
+.fireCont .card{
+    /* height: 300px; */
+    width: 380px;
+    /* border: 2px solid #000; */
+    padding: 30px 20px;
+    position: relative;
+    background-color: #fff;
+}
+
+.card img{
+    height: 80px;
+    width: 80px;
+    margin-bottom: 20px;
+}
+
+.card h3{
+    margin-bottom: 20px;
+}
+
+.card p{
+    font-size: 14px;
+    line-height: 1.8;
+    text-align: left;
+    
+}
+
+.card::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+    background-color: #e8801e;
+}
+
+.card:hover::before{
+    width: 100%;
+}
+
+.card:hover{
+    transform: translateY(-10px);
+    box-shadow: -5px -5px 20px #d2d6dad8;
+    transition: .5s all;
+}
+
+.card:hover img{
+    border: 5px solid #e8801e;
+    transition: .3s all;
+    /* transform: scale(.85); */
+    border-radius: 5px;
+}
+
+.videoCont{
+    height: 400px;
+    width: 100%;
+}
+
+.video{
+    width: 70%;
+    /* height: 100%; */
+    margin: 1px auto;
+    /* border: 2px solid #e8801e; */
+    position: relative;
+}
+
+.videoCont img:nth-child(1){
+    border-radius: 16px;
+    height: 100%;
+    width: 100%;
+}
+
+/* .videoCont img:nth-child(2){
+position: absolute;
+right: 290px;
+top: 90px;
+height: 150px;
+width: 150px;
+fill: #e8801e;
+left: 50%;
+top: 50%;
+transform:  translate(-50%, -50%);
+} */
+
+
+.video .videobtn{
+    position: absolute;
+    right: 290px;
+    top: 90px;
+    height: 120px;
+    width: 120px;
+    color: #e8801e;
+    left: 50%;
+    top: 50%;
+    transform:  translate(-50%, -50%);
+    z-index: 10;
+    border-radius: 100%;
+}
+
+.videobtn:hover{
+    background-color: #e8801e;
+    color: #fff;
+}
+
+.circle1, .circle2, .circle3{
+    height: 120px;
+    width: 120px;
+    border: 2px solid #e8801e;
+    position: absolute;
+    left: 44%;
+    top:37%;
+    transform:  translate(-50%, -50%);
+    border-radius: 50%;
+    animation: spiral 2s infinite ease;
+}
+
+.circle1{
+    animation-delay: .7s;
+}
+
+.circle2{
+    animation-delay: 1.4s;
+}
+
+.circle3{
+    animation-delay: 1.9s;
+}
+
+@keyframes spiral {
+    0%{
+        transform: scale(.85);
+        opacity: 1;
+    }
+    50%{
+        transform: scale(1.25);
+        opacity: 0.5;
+    }
+    100%{
+        transform: scale(1.55);
+        opacity: 0;
+    }
+}
+
+
+.noScroll{
+    overflow: hidden;
+}
+
+.iframe{
+    height: 750px;
+    border: 2px solid #000;
+    width: 100%;
+    z-index: 10;
+    background-color: #fff;
+    position: absolute;
+    top: 900px;
+    left: 0;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    background-color: #342d2d8c;
+    gap: 10px;
+    z-index: 30;
+    /* position: sticky; */
+    scroll-behavior: auto;
+}
+
+.iframe .close{
+margin-left: 1470px ;
+width: 40px;
+height: 35px;
+border: 2px solid #000;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 25px;
+border-top: none;
+}
+
+.iframe iframe{
+    width: 1160px;
+    height: 630px;
+}

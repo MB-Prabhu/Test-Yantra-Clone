@@ -1,0 +1,64 @@
+[
+{
+    "catego": "All",
+    "avail": 14,
+    "id": 0
+
+},
+{"catego": "Software Testing",
+"avail": 1,
+"id": 1                  
+},
+{"catego": "Categories of Tests",
+"avail": 1,
+"id": 2                  
+},
+{"catego": "Test Data",
+"avail": 1,
+"id": 3                  
+},
+{"catego": "UI Element Locator",
+"avail": 1,
+"id": 4                  
+},
+{"catego": "Script Automation",
+"avail": 1,
+"id": 5                  
+},
+{"catego": "FireFlink Finder",
+"avail": 1,
+"id": 6                  
+},
+{"catego": "Debugging",
+"avail": 1,
+"id": 7                  
+},
+{"catego": "Test Automation",
+"avail": 2,
+"id": 8                  
+},
+{"catego": "UI Element Collector",
+"avail": 1,
+"id": 9                  
+},
+{"catego": "Scriptless testing",
+"avail": 1,
+"id": 10                  
+},
+{"catego": "Test Automation suite",
+"avail": 1,
+"id": 11                  
+},
+{"catego": "Software testing",
+"avail": 2,
+"id": 12               
+},
+{"catego": "Crowd Testing",
+"avail": 1,
+"id": 13              
+},
+{"catego": "Performance Testing",
+"avail": 1,
+"id": 14                
+}
+]

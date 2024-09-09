@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.head{
+    height: 250px;
+    position: relative;
+}
+
+.head img{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.mainContent{
+    display: flex;
+    align-items: start;
+    width: 90%;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    position: absolute;
+    top: 10px;
+    color: #e8801e;
+    font-size: 22px;
+    font-weight: 700;
+    padding: 70px;
+}
+
+.mainContent p:nth-child(2){
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+
+}
+
+.firelink{
+    background-color: #f2f6f9;
+    color: #162d52;
+    padding: 60px 60px 10px;
+}
+
+.firelink h1{
+    color: #162d52;
+    font-size: 38px;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 900px;
+    margin: 1px auto;
+
+}
+
+.firelink p{
+    color: #162d52;
+    font-size: 22px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+.fireCont{
+    width: 95%;
+    /* border: 2px solid #000; */
+    margin: 50px auto;
+    padding: 30px;
+}
+
+.cardContainer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    height: 80%;
+    /* border: 2px solid #000; */
+    gap: 20px;
+}
+
+.fireCont .card{
+    /* height: 300px; */
+    width: 380px;
+    /* border: 2px solid #000; */
+    padding: 30px 20px;
+    position: relative;
+    background-color: #fff;
+}
+
+.card img{
+    height: 80px;
+    width: 80px;
+    margin-bottom: 20px;
+}
+
+.card h3{
+    margin-bottom: 20px;
+}
+
+.card p{
+    font-size: 14px;
+    line-height: 1.8;
+    text-align: left;
+    
+}
+
+.card::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+    background-color: #e8801e;
+}
+
+.card:hover::before{
+    width: 100%;
+}
+
+.card:hover{
+    transform: translateY(-10px);
+    box-shadow: -5px -5px 20px #d2d6dad8;
+    transition: .5s all;
+}
+
+.card:hover img{
+    border: 5px solid #e8801e;
+    transition: .3s all;
+    /* transform: scale(.85); */
+    border-radius: 5px;
+}

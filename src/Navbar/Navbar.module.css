@@ -1,0 +1,240 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navContainer{
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    /* border: 2px solid #000; */
+    position: sticky;
+    top:0;
+    z-index: 20;
+}
+
+.secContainer{
+    height: inherit;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid #000; */
+
+}
+
+.logo{
+     /* border: 2px solid #000; */
+     height: 60px;
+     width: 200px;
+
+}
+
+.list{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    /* border: 2px solid black; */
+    /* height: 60px; */
+    justify-content: center;
+}
+
+li {
+    list-style: none;
+    position: relative;
+    /* border: 2px solid black; */
+    /* height: 60px; */
+
+}
+
+li a{
+    text-decoration: none;
+    color: #162d52;
+    font-size: 16px;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid black;; */
+}
+
+li a:hover{
+    color: #f27f3d;
+}
+
+.gettouch{
+    height: 35px;
+    border-radius: 20px;
+    background-color: #e8801e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+}
+
+.gettouch:hover{
+    background-color: #162d52;
+    transition: .5s all;
+}
+
+.gettouch p{
+    color: white;
+    font-weight: 600;
+    text-align: center;
+}
+
+.arrow{
+    font-size: 30px;
+}
+
+/* srvice change */
+
+ ul li:nth-child(2){
+    position: relative;
+    text-decoration: none;
+    color: #162d52;
+    font-size: 16px;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    height: 50px;
+    /* border: 2px solid #000; */
+}
+
+ul li:nth-child(2):hover{
+    color: #e8801e;
+    /* transition: .3s ease; */
+}
+
+
+.serviceLink{
+    position: absolute;
+    z-index: 50;
+    background-color: #fff;
+    width: 240px;
+    margin-top: 300px;
+    padding: 20px;
+    box-shadow: -5px -5px 15px #162d52a1;
+    display: none;
+    left: 0px;
+    height: 250px;
+    animation: 1s hideshow 1 ease;
+}
+
+.serviceLink:hover{
+    display: block;
+}
+.serviceLink ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #162d52;
+    /* justify-content: start; */
+    align-items: start;
+}
+
+.sereviceLink ul li a{
+    width: 0;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+.sereviceLink ul li a:hover{
+    color: #e8801e;
+}
+ 
+ul li:nth-child(2):hover .serviceLink{
+    /* color: #e8801e; */
+    display: block;
+
+}
+
+.list li:nth-child(3){
+    position: relative;
+
+    text-decoration: none;
+    color: #162d52;
+    font-size: 16px;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    /* border: 2px solid #000; */
+    height: 100%;
+   
+}
+
+.list li:nth-child(3):hover{
+    color: #e8801e;
+    
+}
+
+
+.partnerlink{
+    position: absolute;
+    z-index: 100;
+    width: 150px;
+    height: 50px;
+    background-color: #fff;
+    /* border: 2px solid #000; */
+    box-shadow: -2px -2px 10px #162d52a1;
+    display: none;
+    justify-content: center;
+    /* align-items: center; */
+    /* margin-top: 80px; */
+    top: 49px;
+    animation: .5s hideshow 1 ease;
+}
+
+.partnerlink:hover{
+    transition: 1s ease-in;
+    /* display: flex; */
+}
+
+@keyframes hideshow{
+    0%{
+        opacity: 0.9;
+        transition: .3s all;
+    }
+    /* 25%{
+        opacity: 0.6;
+        transition: .3s all;
+    } */
+    /* 50%{
+        opacity: 1;
+    } */
+    100%{
+        opacity: 1;
+        /* transition: 0.3s ease; */
+    }
+    
+}
+
+.partnerlink ul li a{
+    z-index: 30;
+    margin-top: 10px;
+    /* border: 2px solid #000; */
+
+}
+
+.partnerlink ul li a:hover{
+    color: #e8801e;
+}
+
+.list li:nth-child(3):hover .partnerlink{
+    display: flex;
+}
+
+ul{
+    /* border: 2px solid #000; */
+    height: 50px;
+}

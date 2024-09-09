@@ -1,0 +1,250 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.head{
+    height: 250px;
+    position: relative;
+}
+
+.head img{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.mainContent{
+    display: flex;
+    align-items: start;
+    width: 90%;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    position: absolute;
+    top: 10px;
+    color: #e8801e;
+    font-size: 22px;
+    font-weight: 700;
+    padding: 70px;
+}
+
+.mainContent p:nth-child(2){
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+
+}
+
+.logincontainer{
+    height: 600px;
+    width: 100vw;
+    background-color: #f2f6f9;
+    /* border: 2px solid #000; */
+    position: relative;
+}
+
+.loginbox{
+    width: 900px;
+    /* border: 2px solid #000; */
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    position: absolute;
+    left: 20%;
+    top: -50px;
+}
+
+.loginbox .part1{
+    width: 850px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    /* border: 2px solid #000; */
+}
+
+.part1 input, select{
+    height: 40px;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border: 1px solid #9b9898;
+    outline: none;
+    
+}
+
+.part1 input:focus, select:focus{
+    border: 1px solid #e8801e;
+    transition: .3s all;
+}
+
+.part1 input:focus{
+    border: 1px solid #e8801e;
+    transition: .3s all;
+}
+
+.part2{
+    width: 850px;
+    /* height: 40px; */
+    margin-top: 30px;
+    
+}
+
+.part2 input{
+    width: 850px;
+    height: 40px;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    border: 1px solid #9b9898;
+    outline: none;
+    margin-bottom: 30px;
+}
+
+
+.part2 textarea{
+    width: 850px;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    border: 1px solid #9b9898;
+    outline: none;
+    height: 130px;
+}
+
+
+.part2 input:focus, textarea:focus{
+    border: 1px solid #e8801e;
+    transition: .3s all;
+    position: relative;
+}
+
+.btncont{
+    width: 200px;
+    height: 30px;
+    font-size: 16px;
+    color: #9b9898;
+    margin: 30px auto;
+    /* border:  2px solid #000; */
+}
+
+.btncont button{
+    font-size: 16px;
+    color: #9b9898;
+    height: 30px;
+    width: 200px;
+    font-weight: 500;
+    position: absolute;
+    left: 353px;
+    /* border: 2px solid #000; */
+}
+
+
+.contactCont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    bottom: 50px;
+    position:absolute;
+    /* border: 2px solid #000; */
+    left: 500px;
+}
+
+.contactCont div:nth-child(1){
+font-size: 20px;
+font-weight: 700;
+}
+
+.contactCont div:nth-child(1) p{
+    margin: 10px 0;
+    color: #162d52;
+}
+
+.contactCont div:nth-child(2){
+    width: 1.5px;
+    height: 70px;
+    background-color: #5343438f;
+}
+
+.contactCont div:nth-child(3){
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.contactCont div:nth-child(3) p{
+    margin: 10px 0;
+    color: #e8801e;
+}
+
+.countryCont{
+    width: 100vw;
+    height: 700px;
+    background-color: #f2f6f9;
+}
+
+.countryCont h1{
+    font-size: 40px;
+    text-align: center;
+    color: #162d52;
+    padding: 30px;
+}
+
+.countryCardCont{
+    margin: 20px auto;
+    /* border: 2px solid #000; */
+    width: 85%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.countryCardCont .countryCard{
+    height: 250px;
+    width: 420px;
+    /* border: 2px solid #000; */
+    position: relative;
+    background-color: #fff;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.countryCard::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 30px;
+    height: 3px;
+    background-color: #e8801e;
+}
+
+.countryCard:hover{
+    transition: .3s all;
+    transform: translateY(-10px);
+}
+
+.countryCard:hover::before{
+    width: 100%;
+}
+
+.countryCard img{
+    height: 50px;
+    width: 60px;
+}
+
+.countryCard h2{
+    color: #e8801e;
+}
+
+.countryCard p{
+    font-size: 18px;
+    font-weight: 700;
+    color: #162d52;
+
+}
