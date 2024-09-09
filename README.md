@@ -1,3 +1,11 @@
+# Test Yantra Project Clone
+
+This project was a clone of Test Yantra Global Website, where i have built by using HTML, CSS and ReactJs 
+
+In this project i have made routing process to navigate webpages within the website with the help of react router 
+
+And moreover i have learned how to use REactjs Hooks like useState, useEffect hooks and how to make routing throught the entire page(navigation of webpages within the website)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
